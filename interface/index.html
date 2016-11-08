@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>app接口开发示例</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<br/><br/>
+<form action="http://api.com/interface/init.php?format=xml" method="post">
+	<div>
+		<label for="name">设备号:</label>
+		<input type="text" name="did" id="name" value="" tabindex="1" />
+	</div>
+	<div>
+		<label for="version_id">版本号:</label>
+		<input type="text" name="version_id" id="version_id" value="" tabindex="2" />
+	</div>
+	<div>
+		<label for="version_mini">小版本号:</label>
+		<input type="text" name="version_mini" id="version_mini" value="" tabindex="3" />
+	</div>
+	<div>
+		<label for="app_id">APP_ID:</label>
+		<input type="text" name="app_id" id="app_id" value="" tabindex="4" />
+	</div>
+	<div>
+		<label for="app_id">Encrypt_did:</label>
+		<input type="text" name="encrypt_did" id="Encrypt_did" value="" tabindex="5" />
+	</div>
+
+	<div>
+		<input type="submit" value="提交" />
+	</div>
+</form>
+
+<br><br/><br/>
+
+<div class="form-group">
+	<form action="http://api.com/interface/error.php?format=xml" method="post">
+		<div>
+			<label for="name">设备号:</label>
+			<input type="text" name="did" id="name" value="" tabindex="1" />
+		</div>
+		<div>
+			<label for="version_id">版本号:</label>
+			<input type="text" name="version_id" id="version_id" value="" tabindex="2" />
+		</div>
+		<div>
+			<label for="version_mini">小版本号:</label>
+			<input type="text" name="version_mini" id="version_mini" value="" tabindex="3" />
+		</div>
+		<div>
+			<label for="app_id">APP_ID:</label>
+			<input type="text" name="app_id" id="app_id" value="" tabindex="4" />
+		</div>
+		<div>
+			<label for="error_log">error_log:</label>
+			<input type="text" name="error_log" id="error_log" value="" tabindex="5" />
+		</div>
+		<div>
+			<label for="app_id">Encrypt_did:</label>
+			<input type="text" name="encrypt_did" id="Encrypt_did" value="" tabindex="5" />
+		</div>
+
+		<div>
+			<input type="submit" value="提交" />
+		</div>
+	</form>	
+</div>
+	
+</body>
+</html>
